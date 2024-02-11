@@ -12,3 +12,10 @@ function validateCreditCard(cardNumber) {
     return "Invalid";
   }
 }
+
+// Function to prompt the user for input and test the credit card validation
+function testCreditCardValidation() {
+  const cardNumber = prompt("Enter your credit card number:");
+  const cardType = validateCreditCard(cardNumber);
+  alert(`The card type is: ${cardType}`);
+}
