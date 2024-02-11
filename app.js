@@ -19,3 +19,6 @@ function testCreditCardValidation() {
   const cardType = validateCreditCard(cardNumber);
   alert(`The card type is: ${cardType}`);
 }
+
+// Call the function to test credit card validation
+testCreditCardValidation();
